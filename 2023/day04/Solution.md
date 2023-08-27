@@ -24,6 +24,15 @@ A shell script is a computer program designed to be run by a linux shell, a comm
   ```
       
 - Write a Shell Script to take user input, input from arguments and print the variables.
+
+  ```
+  #!/bin/bash
+
+  read var2
+
+  echo "Argument variable is $1 and input variable is $var2"
+  ```
+
 - Write an Example of If else in Shell Scripting by comparing 2 numbers
 
 Was it difficult?
