@@ -34,6 +34,16 @@ A shell script is a computer program designed to be run by a linux shell, a comm
   ```
 
 - Write an Example of If else in Shell Scripting by comparing 2 numbers
+  ```
+  #!/bin/bash
+
+  if [ $1 -gt $2 ]
+  then
+  echo "number 1 is greater"
+  else
+  echo "number 2 is greater"
+  fi
+  ```
 
 Was it difficult?
 
