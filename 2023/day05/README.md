@@ -19,14 +19,14 @@ Example 1: When the script is executed as
 then it creates 90 directories as `day1 day2 day3 .... day90`
 
 ```
-#!/bin/bash
-
-echo "$1 and $2"
-
-for ((i = $1; i <= $2; i++))
-do
-mkdir day$i
-done
+  #!/bin/bash
+  
+  echo "$1 and $2"
+  
+  for ((i = $1; i <= $2; i++))
+  do
+  mkdir day$i
+  done
 ```
 
 Example 2: When the script is executed as
